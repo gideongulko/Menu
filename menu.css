@@ -1,0 +1,81 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 10vw;
+  color: #000040;
+  font-family: futura;
+}
+p{
+font-size: 2vw;
+font-family: futura;
+margin: 1vw;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+margin-bottom: 20px;
+padding: 0;
+position: sticky;
+top: 0;
+overflow: hidden;
+opacity: 50%;
+}
+
+li a{
+display: block;
+width: 15vw;
+font-size: 5vw;
+color: white;
+font-family: futura;
+background-color: #000040;
+padding: 4px 16px;
+text-decoration: none;
+}
+
+li{
+  float:left;
+}
+
+li a:hover{
+  background-color: #000040;
+  color: #000040;
+}
+
+li a.active{
+background: #000040;
+color: #000040;
+}
+
+#flex-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+div{
+  width: 45%;
+  height: 500px;
+
+}
+
+.one{
+background:transparent;
+text-align: left;
+
+
+}
+
+.two{
+background:transparent;
+text-align:right;
+}

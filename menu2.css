@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 200px;
+  background: red;
+  padding: 0;
+  margin: 20px;
+  float: right;
+}
+
+.firstContent {
+  background: orange;
+  height: 200px;
+}
+
+.secondContent {
+  margin: 0;
+  padding: 0;
+  background: yellow;
+  display: none;
+  height: 200px;
+}
+
+.container:hover .firstContent {
+  display: none;
+}
+
+.container:hover .secondContent {
+  display: block;
+}
+
+.active {
+  background-color: red;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: black;
+  font-size: 2em;
+  padding-left: 10px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+img {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
